@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "strict": true,
+    "target": "esnext",
+    "module": "NodeNext",
+    "lib": ["es2020", "DOM", "DOM.Iterable"],
+    "moduleResolution": "NodeNext",
+    "declaration": true,
+    "declarationMap": true,
+
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+
+    "allowJs": true,
+    "checkJs": false,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+
+    "sourceMap": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"],
+}
