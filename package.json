@@ -12,7 +12,7 @@
     "dist"
   ],
   "scripts": {
-    "prepublish": "npm run build && npm run test && npm run build:docs",
+    "beforePublish": "npm run build && npm run test && npm run build:docs",
     "publish-patch": "npm run before-publish && npm version patch && npm publish --access public",
     "publish-minor": "npm run before-publish && npm version minor && npm publish --access public",
     "publish-major": "npm run before-publish && npm version major && npm publish --access public",
