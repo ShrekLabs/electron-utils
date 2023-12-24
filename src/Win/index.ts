@@ -1,4 +1,5 @@
 import { LoadURLOptions } from "electron";
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const { BrowserWindow } = require("@electron/remote");
 
 let currentOpenedWindows = 0;
